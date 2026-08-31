@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marina Picari</title>
+  <link rel="stylesheet" href="[link removed]">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header superiore comune -->
+  <header class="mobile-navbar">
+    <!-- Pulsante visibile su Mobile (a sinistra) -->
+    <button class="trigger-mobile-about" onclick="openAboutMobile()">About</button>
+    
+    <!-- Titolo/Pulsante Home (al centro) -->
+    <button class="mobile-site-title" onclick="window.location.href='index.html'">Marina Picari</button>
+    
+    <!-- Pulsante Playground (a destra su Mobile e Desktop) -->
+    <button class="trigger-desktop-playground" onclick="openPlayground()">Playground</button>
+  </header>
+
+  <!-- Sezione Bio Desktop (Fissa a sinistra) -->
+<header class="bio-section" id="desktop-bio">
+  <div class="bio-main-scroll">
+    
+    <div class="bio-text">
+      <h2>Motion and graphic designer based in Rome. My experience has been shaped by working on a diverse range of design projects across branding, animation and editorial for both cultural and commercial clients. I'm always looking for visual, technical, and conceptual approaches able to translate the intangible. And above all, I have fun doing it.</h2>
+    </div>
+
+    <!-- Sezione Education (Ref. BIO.png) -->
+    <div class="bio-block">
+      <h4 class="bio-heading">Education</h4>
+      <div class="bio-row">
+        <span class="bio-year">2021-2024</span>
+        <p class="bio-desc">MA in Computer Animation and Visual Effects at RUFA - Rome University of Fine Arts (IT)</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">2016-2020</span>
+        <p class="bio-desc">BA in Graphic Design at RUFA- Rome University of Fine Arts (IT)</p>
+      </div>
+    </div>
+
+     <!-- Sezione 2: Experiences -->
+    <div class="bio-block">
+      <h4 class="bio-heading">Experiences</h4>
+      <div class="bio-row">
+        <span class="bio-year">October 2025- <br>Present</br></span>
+        <p class="bio-desc">Graphic designer at INFN - The National Institute for Nuclear Physics</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">January 2025- <br>Present</br></span>
+        <p class="bio-desc">Freelance motion designer, member of the Intorno Design collective </p>
+      </div>
+        <div class="bio-row">
+        <span class="bio-year">August- <br>December 2024</br></span>
+        <p class="bio-desc">Freelance motion designer</p>
+      </div>
+    <div class="bio-row">
+        <span class="bio-year">March- July <br>2024</br></span>
+        <p class="bio-desc">Motion designer at Luther Dsgn</p>
+      </div>
+    <div class="bio-row">
+        <span class="bio-year">March 2020- <br> September 2021</br></span>
+        <p class="bio-desc">Motion designer at Studio Grafico Daniela Boccadoro</p>
+      </div>
+    <div class="bio-row">
+        <span class="bio-year">April- <br> May 2019</br></span>
+        <p class="bio-desc">Motion designer with iCompany for Concerto del Primo Maggio, Rome (IT)</p>
+      </div>
+    <div class="bio-row">
+        <span class="bio-year">March- <br> May 2018</br></span>
+        <p class="bio-desc">Graphic designer for Arci Nazionale membership campaign</p>
+      </div>
+    </div>
+
+    <!-- Sezione 3: Teaching and Workshops -->
+    <div class="bio-block">
+      <h4 class="bio-heading">Teaching and Workshops</h4>
+            <div class="bio-row">
+        <span class="bio-year">October 2025-<br>Present</br></span>
+        <p class="bio-desc">Lecturer for the Digital Animation Techniques course at RUFA, Rome (IT)</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">October-<br>November 2025</br></span>
+        <p class="bio-desc">Workshop tutor for the Motion graphic classes of Zalib Informal Academy, Rome (IT)</p>
+      </div>
+            <div class="bio-row">
+        <span class="bio-year">January 2025</span>
+        <p class="bio-desc">Workshop facilitator for the 7th edition of Roma Design Experience at ISIA Roma Design, Rome (IT)</p>
+      </div>
+    </div>
+
+    <!-- Sezione 4: Talks -->
+    <div class="bio-block">
+      <h4 class="bio-heading">Guest lectures</h4>
+      <div class="bio-row">
+       <span class="bio-year">November 2024</span>
+        <p class="bio-desc">Presentation of the Ultrapieno collective's portfolio at RUFA, Rome (IT)</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">May 2024</span>
+        <p class="bio-desc">"Flip me to the moon and beyond" at NABA University, Rome (IT)</p>
+      </div>
+    </div>
+
+    <!-- Sezione Contact allineata geometricamente -->
+<div class="bio-block">
+  <h4 class="bio-heading">Contact</h4>
+  <div class="bio-row">
+    <!-- Blocco vuoto per forzare la tabulazione di 110px -->
+    <span class="bio-year"></span>
+ <footer class="contact">
+          <a href="mailto:marina.picari97@gmail.com">Email</a>
+          <a href="https://www.instagram.com/maldimer/" target="_blank">Instagram</a>
+        </footer>
+  </div>
+</div>
+  </div>
+</header>
+
+    <!-- Sezione Progetti Principale (Griglia Unificata) -->
+    <main class="projects-section">
+      <div class="projects-grid">
+        <!-- Progetto 1 -->
+        <div class="project-card" onclick="openProject('project1')">
+          <div class="project-media">
+            <img src="images/FlipMeToTheMoon/FMTM-3.jpg" alt="Flip me to the moon-cover">
+          </div>
+          <div class="project-info">
+            <h3>Flip me to the moon and beyond</h3>
+            <p>An academic research on anti-mimetic animation. </p>
+          </div>
+        </div>
+        
+        <!-- Progetto 2 -->
+        <div class="project-card" onclick="openProject('project2')">
+          <div class="project-media">
+            <video src="images/Mangaverse/99_PRESS/00.Export/01.LOGO_Presentation_TAPU-corretto_1.mp4" autoplay loop muted playsinline alt="Mangaverse-cover">
+          </div>
+          <div class="project-info">
+            <h3>Mangaverse</h3>
+            <p>Branding system and promotional launch for a manga e-commerce platform.</p>
+          </div>
+        </div>
+
+        <!-- Progetto 3 -->
+        <div class="project-card" onclick="openProject('project3')">
+          <div class="project-media">
+            <video src="images/IDidMyJobBoss/razzo.mp4" autoplay loop muted playsinline alt="I did my job boss-cover">
+          </div>
+          <div class="project-info">
+            <h3>I did my job, boss</h3>
+            <p>Animated short on summer and work. </p>
+          </div>
+        </div>
+
+        <!-- Progetto 4 -->
+        <div class="project-card" onclick="openProject('project4')">
+          <div class="project-media">
+            <img src="images/Anica/00_Esecutivi/still life/01_still life.jpg" alt="Anica Huck-cover">
+          </div>
+          <div class="project-info">
+            <h3>Anica Huck</h3>
+            <p>Art catalogue of a contemporary artist.</p>
+          </div>
+        </div>
+
+        <!-- Progetto 5 -->
+        <div class="project-card" onclick="openProject('project5')">
+          <div class="project-media">
+            <img src="images/PLAY/foto_libro_nuove/SCELTE/Edited/DSC_0748.png" alt="Project 5">
+          </div>
+          <div class="project-info">
+            <h3>PLAY</h3>
+            <p>Interdisciplinary research on how we are designed to play. </p>
+          </div>
+        </div>
+        
+                <div class="project-card" onclick="openProject('project6')">
+          <div class="project-media">
+            <img src="images/PrimoMaggio/hero_primo-maggio-2019.jpg" autoplay loop muted playsinline alt="FirstMay-cover">
+          </div>
+          <div class="project-info">
+            <h3>First of May concert</h3>
+            <p>Animated scenography for the biggest free event in Italy.</p>
+          </div>
+        </div>
+
+        <!-- Progetto 6 -->
+        <div class="project-card" onclick="openProject('project7')">
+          <div class="project-media">
+            <img src="images/TesseraArci/1.jpg"  alt="Arci-cover">
+          </div>
+          <div class="project-info">
+            <h3>Più cultura meno paura</h3>
+            <p>Card membership visual.</p>
+          </div>
+        </div>
+
+
+
+         <div class="project-card" onclick="openProject('project8')">
+          <div class="project-media">
+            <video src="images/Natale25_INFN/CCPT3.mp4" autoplay loop muted playsinline alt="Christmas-cover">
+          </div>
+          <div class="project-info">
+            <h3>A Christmas Carol, universe edition</h3>
+            <p>Animated short on the universe's shape, tracing past cosmologies and future hypotheses. </p>
+          </div>
+        </div>
+
+
+      </div>
+    </main>
+  </div>
+
+<!-- OVERLAY 1: Informazioni Bio (Solo Mobile - Allineamento Fedele) -->
+<div id="about-overlay-mobile" class="overlay-about">
+  <button class="close-btn" onclick="closeAboutMobile()">(close)</button>
+  <div class="about-overlay-content"> 
+    
+    <div class="bio-text">
+      <h2>Motion and graphic designer based in Rome. My experience has been shaped by working on a diverse range of design projects across branding, animation and editorial for both cultural and commercial clients. I'm always looking for visual, technical, and conceptual approaches able to translate the intangible. And above all, I have fun doing it.</h2>
+    </div>
+
+    <!-- Sezione 1: Education -->
+    <div class="bio-block">
+      <h4 class="bio-heading">Education</h4>
+      <div class="bio-row">
+        <span class="bio-year">2021-2024</span>
+        <p class="bio-desc">MA in Computer Animation and Visual Effects at RUFA - Rome University of Fine Arts (IT)</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">2016-2020</span>
+        <p class="bio-desc">BA in Graphic Design at RUFA- Rome University of Fine Arts (IT)</p>
+      </div>
+    </div>
+
+    <!-- Sezione 2: Experiences -->
+    <div class="bio-block">
+      <h4 class="bio-heading">Experiences</h4>
+      <div class="bio-row">
+        <span class="bio-year">October 2025- <br>Present</br></span>
+        <p class="bio-desc">Graphic designer at INFN - The National Institute for Nuclear Physics</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">January 2025- <br>Present</br></span>
+        <p class="bio-desc">Freelance motion designer, member of the Intorno Design collective</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">August- <br>December 2024</br></span>
+        <p class="bio-desc">Freelance motion designer</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">March- July <br>2024</br></span>
+        <p class="bio-desc">Motion designer at Luther Dsgn</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">March 2020- <br> September 2021</br></span>
+        <p class="bio-desc">Motion designer at Studio Grafico Daniela Boccadoro</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">April- <br> May 2019</br></span>
+        <p class="bio-desc">Motion designer with iCompany for Concerto del Primo Maggio, Rome (IT)</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">March- <br> May 2018</br></span>
+        <p class="bio-desc">Graphic designer for Arci Nazionale membership campaign</p>
+      </div>
+    </div>
+
+    <!-- Sezione 3: Teaching and Workshops -->
+    <div class="bio-block">
+      <h4 class="bio-heading">Teaching and Workshops</h4>
+      <div class="bio-row">
+        <span class="bio-year">October 2025-<br>Present</br></span>
+        <p class="bio-desc">Lecturer for the Digital Animation Techniques course at RUFA, Rome (IT)</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">October-<br>November 2025</br></span>
+        <p class="bio-desc">Workshop tutor for the Motion graphic classes of Zalib Informal Academy, Rome (IT)</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">January 2025</span>
+        <p class="bio-desc">Workshop facilitator for the 7th edition of Roma Design Experience at ISIA Roma Design, Rome (IT)</p>
+      </div>
+    </div>
+
+    <!-- Sezione 4: Talks -->
+    <div class="bio-block">
+      <h4 class="bio-heading">Guest lectures</h4>
+      <div class="bio-row">
+        <span class="bio-year">November 2024</span>
+        <p class="bio-desc">Presentation of the Ultrapieno collective's portfolio at RUFA, Rome (IT)</p>
+      </div>
+      <div class="bio-row">
+        <span class="bio-year">May 2024</span>
+        <p class="bio-desc">"Flip me to the moon and beyond" at NABA University, Rome (IT)</p>
+      </div>
+    </div>
+
+    <!-- Sezione Contact -->
+    <div class="bio-block">
+      <h4 class="bio-heading">Contact</h4>
+      <div class="bio-row">
+        <span class="bio-year"></span>
+        <footer class="contact">
+          <a href="mailto:marina.picari97@gmail.com">Email</a>
+          <a href="https://www.instagram.com/maldimer/" target="_blank">Instagram</a>
+        </footer>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- OVERLAY 2: Griglia Playground (Mobile e Desktop Dinamica) -->
+<div id="playground-overlay" class="overlay-playground">
+  <button class="close-btn" onclick="closePlayground()">(close)</button>
+  <div class="playground-content">
+    <!-- La griglia accoglierà le colonne generate dinamicamente da JS -->
+    <div class="playground-grid" id="playground-dynamic-grid"></div>
+  </div>
+</div>
+
+
+  <!-- OVERLAY 3: Dettaglio Progetto Immersivo -->
+  <div id="project-overlay" class="overlay">
+    <button class="close-btn" onclick="closeProject()">(close)</button>
+    
+    <div class="project-detail-container">
+      <!-- PARTE SUPERIORE: Info a sinistra, Media a destra (Scorrono insieme) -->
+      <div class="project-hero-section">
+        <aside class="project-meta-sidebar">
+          <header class="project-detail-header">
+            <h1 id="overlay-title" class="project-detail-title">Titolo Progetto</h1>
+          </header>
+          <p id="overlay-intro" class="project-detail-intro">Sottotitolo introduttivo...</p>
+
+          <div class="meta-block">
+            <span class="meta-label">Year</span>
+            <span class="meta-value" id="overlay-year">—</span>
+          </div>
+          <div class="meta-block">
+            <span class="meta-label">Context</span>
+            <span class="meta-value" id="overlay-client">—</span>
+          </div>
+          <div class="meta-block">
+            <span class="meta-label">Type of project</span>
+            <span class="meta-value" id="overlay-service">—</span>
+          </div>
+          <div class="meta-block">
+            <span class="meta-label">Credits</span>
+           <span class="meta-value" id="overlay-tags">—</span>
+          </div>
+
+        </aside>
+
+        <div class="project-main-media-wrapper">
+          <div class="overlay-media" id="overlay-media-container"></div>
+        </div>
+      </div>
+
+     <section class="project-description-columns" id="overlay-description-container">
+  <p id="overlay-dynamic-text">Il testo fluido del progetto verrà inserito qui...</p>
+</section>
+
+<!-- SEZIONE: Documentazione Media Multimediale -->
+<section class="project-documentation-section">
+  <h2 class="documentation-title">Documentation</h2>
+  
+  <!-- Contenitore statico per gli Iframe di Vimeo (Sicurezza massima) -->
+  <div id="vimeo-static-containers">
+    
+   <!-- EMBED VIMEO PROGETTO 1 -->
+<div id="vimeo-project1" class="documentation-item full-width overlay-media-vimeo" style="display: none; margin-bottom: 15px;">
+  <div style="padding:56.25% 0 0 0; position:relative;">
+    <!-- RISOLTO: Tutti i parametri sono stati inseriti correttamente dentro l'URL e separati da & -->
+    <iframe src="https://player.vimeo.com/video/1006103206?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479;" 
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+            title="Flip Me To The Moon And Beyond">
+    </iframe>
+  </div>
+</div>
+
+
+<!-- EMBED VIMEO PROGETTO 3 -->
+<div id="vimeo-project3" class="documentation-item full-width overlay-media-vimeo" style="display: none; margin-bottom: 15px;">
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1222430429?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="I did my job, boss"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+
+
+   <!-- EMBED VIMEO PROGETTO 8 -->
+<div id="vimeo-project8" class="documentation-item full-width overlay-media-vimeo" style="display: none; margin-bottom: 15px;">
+  <div style="padding:56.25% 0 0 0; position:relative;">
+    <!-- RISOLTO: Tutti i parametri sono stati inseriti correttamente dentro l'URL e separati da & -->
+    <iframe src="https://player.vimeo.com/video/1221231001?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479;"
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+            title="A christmas carol: Universe edition">
+    </iframe>
+  </div>
+</div>
+
+  <!-- La griglia accoglierà il resto dei media locali -->
+  <div class="documentation-grid" id="overlay-documentation-container"></div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
