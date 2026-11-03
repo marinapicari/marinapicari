@@ -10,7 +10,7 @@ const projectData = {
     media: "<img src='images/FlipMeToTheMoon/FMTM-3.jpg' style='width:100%;' alt='FMTMB-cover'>",
     description: "The text is an interdisciplinary reflection that delves into the deep roots of the act of infusing objects with a soul. From the so-called pre-cinema to the study of the evolution of storytelling, the text questions whether animation can be, as in the vision of kinetic artist Len Lye, an act of composition, similar to musical composition. Visually, the book is a flipbook, an animated book. The images on the sides tell a story in eight sequences that progress simultaneously in groups of four as one flips through it. The story is an anti-mimetic visual translation of the emotions depicted in the first Toy Story. The choice to translate the first 3D feature film is a provocation against the animation film industry, which has become fixated on an increasingly meticulous pursuit of realism and easily assimilable narrative codes. In cinema, animation has ceased to experiment with its core potential, becoming a copy of live-action cinema, but less real. The animated sequences visually convey the content of the thesis, attempting to understand the limits of abstraction, colour and movement that allow the communication of pride, fear, friendship, and relief.",
     documentation: [
-      { type: "video", src: "images/FlipMeToTheMoon/MP4/FlipBook.mp4", class: "" },
+      { type: "video", src: "images/FlipMeToTheMoon/MP4/FlipBook_1.mp4", class: "" },
       { type: "video", src: "images/FlipMeToTheMoon/MP4/1920x1080_impaginato.mp4", class: "" },
       { type: "video", src: "images/FlipMeToTheMoon/MP4/Sequenze_video/FTMB_03.mp4", class: "full-width" },
       { type: "image", src: "images/FlipMeToTheMoon/FMTM-1.jpg", class: "" },
@@ -21,7 +21,6 @@ const projectData = {
       { type: "image", src: "images/FlipMeToTheMoon/Pagine da Frame video-8.png", class: "" },
       { type: "image", src: "images/FlipMeToTheMoon/Pagine da Frame video.png", class: "" },
       { type: "image", src: "images/FlipMeToTheMoon/Pagine da Frame video-2.png", class: "" },
-      { type: "image", src: "images/FlipMeToTheMoon/Frame video_Pagina_64.jpg", class: "full-width" },
       { type: "video", src: "images/FlipMeToTheMoon/MP4/Sequenze_video/FTMB_04.mp4", class: "full-width" },
       { type: "video", src: "images/FlipMeToTheMoon/MP4/Sequenze_video/FTMB_01.mp4", class: "" },
       { type: "video", src: "images/FlipMeToTheMoon/MP4/Sequenze_video/FTMB_02.mp4", class: "" }
@@ -81,18 +80,18 @@ const projectData = {
     client: "Anica Huck",
     service: "Editorial design",
     tags: "Art direction and design — Marina Picari, Luca Santarelli",
-    media: "<img src='images/Anica/00_Esecutivi/still life/01_still life.jpg', style='width:100%;' alt='Anica-Cover'>",
+    media: "<img src='images/Anica/01_still life.jpg', style='width:100%;' alt='Anica-Cover'>",
     description: "To bring the temporal dimension into the catalog, it was chosen to divide the works from their descriptions into sequential pages. In the textual section, the meaning of the artwork is described without revealing it, and only by turning to the next page will it be possible to physically see it, carrying with it the memory of the idea underlying that specific piece. The typography defines the spaces of the catalog. Each page is uniquely composed on a 12-column grid, capable of determining the position of images through absence. In the most significant passages, the text is reduced, compelling the reader to pay greater attention.",
     documentation: [
-       { type: "image", src: "images/Anica/00_Esecutivi/still life/02_still life.jpg", class: "" },
-       { type: "image", src: "images/Anica/00_Esecutivi/still life/04_still life.jpg", class: "" },
-       { type: "image", src: "images/Anica/00_Esecutivi/still life/03_still life.jpg", class: "" }, 
-       { type: "image", src: "images/Anica/00_Esecutivi/still life/05_still life.jpg", class: "" }, 
-       { type: "image", src: "images/Anica/00_Esecutivi/impaginati/01_imp.jpg", class: "full-width" }, 
-       { type: "image", src: "images/Anica/00_Esecutivi/impaginati/02_imp.jpg", class: "" }, 
-       { type: "image", src: "images/Anica/00_Esecutivi/impaginati/03_imp.jpg", class: "" }, 
-       { type: "image", src: "images/Anica/00_Esecutivi/impaginati/04_imp.jpg", class: "" }, 
-       { type: "image", src: "images/Anica/00_Esecutivi/impaginati/05_imp.jpg", class: "" }, 
+       { type: "image", src: "images/Anica/02_still life.jpg", class: "" },
+       { type: "image", src: "images/Anica/04_still life.jpg", class: "" },
+       { type: "image", src: "images/Anica/03_still life.jpg", class: "" }, 
+       { type: "image", src: "images/Anica/05_still life.jpg", class: "" }, 
+       { type: "image", src: "images/Anica/01_imp.jpg", class: "full-width" }, 
+       { type: "image", src: "images/Anica/02_imp.jpg", class: "" }, 
+       { type: "image", src: "images/Anica/03_imp.jpg", class: "" }, 
+       { type: "image", src: "images/Anica/04_imp.jpg", class: "" }, 
+       { type: "image", src: "images/Anica/05_imp.jpg", class: "" }, 
     ]
   },
   project5: {
@@ -107,8 +106,8 @@ const projectData = {
     documentation: [
       { type: "image", src: "images/PLAY/GIF Tesi (0-00-00-01).jpg", class: "" },
       { type: "image", src: "images/PLAY/GIF Tesi (0-00-00-21).jpg", class: "" },
-      { type: "image", src: "images/PLAY/JPG_Doppie/2-3.jpg", class: "" },
-      { type: "image", src: "images/PLAY/JPG_Doppie/28-29.jpg", class: "" },
+      { type: "image", src: "images/PLAY/2-3.jpg", class: "" },
+      { type: "image", src: "images/PLAY/28-29.jpg", class: "" },
       { type: "image", src: "images/PLAY/foto_libro_nuove/SCELTE/Edited/DSC_0725.png", class: "full-width" },
       { type: "image", src: "images/PLAY/foto_libro_nuove/SCELTE/Edited/DSC_0728.png", class: "" },
       { type: "image", src: "images/PLAY/foto_libro_nuove/SCELTE/Edited/DSC_0748.png", class: "" },
@@ -195,9 +194,9 @@ const playgroundItems = [
   { type: "image", src: "images/00-playground/post_insta3.jpg", alt: "post_insta3.jpg" },
   { type: "image", src: "images/00-playground/snake-2.png", alt: "Snake-1" },
   { type: "image", src: "images/00-playground/Nat-1.png", alt: "snake-2" },
-  { type: "image", src: "images/00-playground/procedurale texture-dots.gif", alt: "procedurale texture-dots.gif" },
+  { type: "video", src: "images/00-playground/proceduraleTextureDots.mp4", alt: "procedurale texture-dots" },
   { type: "image", src: "images/00-playground/Loop_Sigla_RG.gif", alt: "Asset 12" },
-  { type: "image", src: "images/00-playground/Loop_Sigla 3.gif", alt: "Asset 10" },
+  { type: "video", src: "images/00-playground/Loop_Sigla_3.mp4", alt: "loop_sigla_3" },
   { type: "image", src: "images/00-playground/hula-hoop-1.gif", alt: "hula-hoop-1" },
   { type: "image", src: "images/00-playground/_MG_8148BW2.png", alt: "Asset 13" },
   { type: "video", src: "images/00-playground/KillBill.mp4", alt: "Asset 14" },
@@ -205,7 +204,7 @@ const playgroundItems = [
     { type: "image", src: "images/00-playground/render.2_1.jpg", alt: "render.2_1" },
  
   { type: "image", src: "images/00-playground/Type-2.gif", alt: "type-2" },
-   { type: "image", src: "images/00-playground/Intro_Illustrazioni_1.gif", alt: "Intro_Illustrazioni_1" },
+   { type: "video", src: "images/00-playground/Intro_Illustrazioni_1.mp4", alt: "Intro_Illustrazioni_1" },
     { type: "image", src: "images/00-playground/Omino_2.jpg", alt: "Omino_2" },  
 
   

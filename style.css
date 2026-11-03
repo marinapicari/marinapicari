@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "stevie-sans", sans-serif;
+ font-family: 'Inter', sans-serif; /* Sostituisci 'Inter' con il nome del font scelto */
   font-size: small;
   font-weight: 500;
   font-style: normal;
@@ -17,13 +17,12 @@ body {
   color: #767676;
 }
 
+button, h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+}
 .project-info h3 {
   font-weight: 600;
   color: #000;
-}
-
-button {
-  font-family: inherit;
 }
 
 .container {
@@ -39,8 +38,8 @@ button {
   top: 0;
   left: 0;
   width: 100%;
-  height: 45px;
-  background-color: #ffffff;
+  height: 37px;
+  background-color: rgba(255, 255, 255, 1); 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,13 +84,13 @@ button {
 
 /* --- SEZIONE PROGETTI HOME (MOBILE) --- */
 .projects-section {
-  padding: 45px 15px 2rem 15px;
+  padding: 37px 15px 2rem 15px;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 45px 10px;
+  gap: 25px 5px;
 }
 
 .project-card {
@@ -245,7 +244,7 @@ button {
   height: 100vh;
   background-color: #fff;
   overflow-y: auto;
-  padding: 45px 15px 40px 15px; /* Aggancio millimetrico sotto l'header */
+  padding: 37px 15px 40px 15px; /* Aggancio millimetrico sotto l'header */
   z-index: 2000;
 }
 
@@ -253,7 +252,7 @@ button {
   position: fixed;
   top: 0;
   right: 15px;
-  height: 45px;
+  height: 37px;
   font-size: 14px;
   font-weight: bold;
   text-transform: lowercase;
@@ -304,7 +303,6 @@ button {
   font-size: 1.5em;
   line-height: 1.4;
   color: #000;
-  font-weight: 400;
   letter-spacing: -0.01em;
 }
 
@@ -317,26 +315,20 @@ button {
 
 .meta-label {
   font-size: 1em;
-  color: #000;
-  letter-spacing: 0.05em;
+  color:#767676;
   font-weight: 600;
 }
 
 .meta-value {
   font-size: 1em; /* Sincronizzato con la dimensione .bio-desc */
   line-height: 1.3;
-  color: #000;
+  color: #767676;
   /* NUOVO: Forza il browser a interpretare i comandi \n andando a capo */
   white-space: pre-line; 
 
 }
 
-.project-external-link {
-  font-size: 0.75rem;
-  color: #000;
-  font-weight: bold;
-  text-decoration: underline;
-}
+
 
 .project-main-media-wrapper {
   width: 100%;
@@ -358,8 +350,8 @@ button {
 }
 
 .project-description-columns p {
-  font-size: 1.2em;
-  line-height: 1.5;
+  font-size: 1.4em;
+  line-height: 1.3;
   color: #000;
   text-align: left;
 }
@@ -409,7 +401,7 @@ button {
 .documentation-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Aggiornato da 1fr a 2 colonne anche su mobile */
-  gap: 10px; /* Mantiene lo spazio costante tra i media */
+  gap: 5px; /* Mantiene lo spazio costante tra i media */
 }
 
 .documentation-item {
@@ -487,13 +479,13 @@ button {
   .projects-section {
     margin-left: 30%;
     width: 70%;
-    padding: 45px 25px 2rem 25px;
+    padding: 37px 25px 2rem 25px;
   }
 
 
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 45px 10px;
+    gap: 25px 5px;
   }
 
   .project-hero-section {
