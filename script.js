@@ -101,7 +101,7 @@ const projectData = {
     client: "Academic research",
     service: "Editorial, workshop",
     tags: "Art direction and design — Marina Picari, Luca Santarelli\nWorkshop done with RUFA students",
-    media: "<img src='images/PLAY/Munari.jpg', style='width:100%;' alt='PLAY-Cover'>",
+    media: "<img src='images/PLAY/mUNARI.jpg', style='width:100%;' alt='PLAY-Cover'>",
     description: "This book is not a manual of pre-packaged activities, but a portal for those who wish to learn how to play in their own way. Every aspect of the graphic project was considered an opportunity for play, from the cover that creates surprise once revealed, to the index and the images created using the collage technique. The handwritten texts are the most important parts; they are like the thoughts a reader writes in the margins while reading a book. The last section of the book is dedicated to a series of workshops conducted with graphic design students. The activities were designed to give space to creative processes that value collaboration, research, and a change of perspective. The tools used by the students were all analog because the aim was to create conditions for reconsidering mistakes as opportunities for design and to value instinct and spontaneity.",
     documentation: [
       { type: "image", src: "images/PLAY/GIF Tesi (0-00-00-01).jpg", class: "" },
